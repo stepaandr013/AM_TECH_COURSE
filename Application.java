@@ -25,7 +25,7 @@ public class Application {  //Class Application with main method
         int command;
         do{
             Scanner scanner = new Scanner(System.in);  //Menu
-            System.out.println("1 - List of users without change.");
+            System.out.println("1 - List of users.");
             System.out.println("2 - Change status to ACTIVE for NEW users\n" +
                     "whose timestamp when they were registered in the system is older than yesterday.");
             System.out.println("3 -  Pick up INACTIVE users that where registered more than 1 month ago and set their status to BLOCKED.");
